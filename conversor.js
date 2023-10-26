@@ -34,4 +34,12 @@ function conversor(){
         document.querySelector('#resultado').innerHTML = resultado;
     }
 
+} 
+//funçao de limpar formulario
+function limpar(){
+
+    document.querySelector('#temperatura').value = '';
+    document.querySelector('#escala').value = '';
+    document.querySelector('#resultado').innerHTML = '-';
+    
 }
